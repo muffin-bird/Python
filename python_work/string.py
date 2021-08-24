@@ -8,3 +8,18 @@ print("Python")
 print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")
 print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+# 文字列の右側の空白文字を削除
+favorite_language = 'python '
+favorite_language = favorite_language.rstrip()
+print(favorite_language)
+
+# 左側の空白文字を削除
+favorite_language = ' python'
+favorite_language = favorite_language.lstrip()
+print(favorite_language)
+
+# 左右両方の空白文字を削除
+favorite_language = ' python '
+favorite_language = favorite_language.strip()
+print(favorite_language)
