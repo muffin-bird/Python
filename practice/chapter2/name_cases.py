@@ -17,7 +17,7 @@ message = f'{famous_person}は"僕は、宇宙をへこませたい。"と言っ
 print(message)
 
 # 演習問題 2-7
-name = " muffin "
+name = "\tmuffin\t "
 print(name)
 print(name.lstrip())
 print(name.rstrip())
