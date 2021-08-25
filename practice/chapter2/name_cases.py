@@ -7,3 +7,8 @@ full_name = "muffin man"
 print(full_name.title())
 print(full_name.upper())
 print(full_name.lower())
+
+# 演習問題 2-5
+celebrity = "スティーブ・ジョブズ"
+witticism = f'{celebrity}は"僕は、宇宙をへこませたい。"と言った'
+print(witticism)
