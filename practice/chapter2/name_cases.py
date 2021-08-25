@@ -15,3 +15,10 @@ print('スティーブ・ジョブズは"僕は、宇宙をへこませたい。
 famous_person = "スティーブ・ジョブズ"
 message = f'{famous_person}は"僕は、宇宙をへこませたい。"と言った。'
 print(message)
+
+# 演習問題 2-7
+name = " muffin "
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
