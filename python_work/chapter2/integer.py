@@ -26,3 +26,9 @@ print(3.0 ** 2)
 # アンダースコア
 universe_age = 14_000_000_000
 print(universe_age)
+
+# 複数同時の代入
+x, y, z = 0, 0, 0
+print(x)
+print(y)
+print(z)
