@@ -32,3 +32,9 @@ x, y, z = 0, 0, 0
 print(x)
 print(y)
 print(z)
+
+# 定数
+MAX_CONNECTION = 5000
+# 値を上書きできてしまうので注意が必要
+MAX_CONNECTION = 4000
+print(MAX_CONNECTION)
