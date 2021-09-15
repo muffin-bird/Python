@@ -50,3 +50,22 @@ name_5 = persons[4]
 print(f"こんにちは{name_5}さん、夕食はいかがでしょうか。")
 name_6 = persons[5]
 print(f"こんにちは{name_6}さん、夕食はいかがでしょうか。")
+
+# 演習問題 3-7
+print("申し訳ございません。夕食には2人の席しかございませんでした。")
+name_6 = persons.pop()
+print(f"{name_6}さん、夕食は中止になりました。申し訳ございません。")
+name_5 = persons.pop()
+print(f"{name_5}さん、夕食は中止になりました。申し訳ございません。")
+name_4 = persons.pop()
+print(f"{name_4}さん、夕食は中止になりました。申し訳ございません。")
+name_3 = persons.pop()
+print(f"{name_3}さん、夕食は中止になりました。申し訳ございません。")
+print(persons)
+name = persons[0]
+print(f"こんにちは{name}さん、夕食にきてください")
+name_2 = persons[1]
+print(f"こんにちは{name_2}さん、夕食にきてください")
+del persons[0]
+del persons[0]
+print(persons)
