@@ -20,3 +20,11 @@ print("\nソートされたリスト")
 print(sorted(cars))
 print("\n元のリストを再表示")
 print(cars)
+
+# リストを逆順で出力する
+cars = ["bmw", "audi", "toyota", "subaru"]
+print(cars)
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)
