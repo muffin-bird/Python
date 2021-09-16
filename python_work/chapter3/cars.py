@@ -28,3 +28,7 @@ cars.reverse()
 print(cars)
 cars.reverse()
 print(cars)
+
+# リストの長さを調べる
+cars = ["bmw", "audi", "toyota", "subaru"]
+print(len(cars))
