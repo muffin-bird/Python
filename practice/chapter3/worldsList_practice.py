@@ -11,3 +11,7 @@ worlds.sort()
 print(worlds)
 worlds.sort(reverse=True)
 print(worlds)
+
+# 演習問題 3-9
+worlds = ["America", "Switzerland", "Japan", "Canada", "Brazil"]
+print(len(worlds))
