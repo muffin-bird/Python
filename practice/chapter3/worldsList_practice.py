@@ -15,3 +15,16 @@ print(worlds)
 # 演習問題 3-9
 worlds = ["America", "Switzerland", "Japan", "Canada", "Brazil"]
 print(len(worlds))
+
+# 演習問題 3-10
+languages = ["Python", "Swift", "Java", "Ruby"]
+languages.sort()
+print(languages)
+languages.sort(reverse=True)
+print(languages)
+languages = ["Python", "Swift", "Java", "Ruby"]
+print(sorted(languages))
+print(sorted(languages, reverse=True))
+languages.reverse()
+print(languages)
+print(len(languages))
