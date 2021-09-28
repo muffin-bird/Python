@@ -11,3 +11,8 @@ numbers = list(range(1, 1_000_001))
 print(min(numbers))
 print(max(numbers))
 print(sum(numbers))
+
+# 演習問題 4-6
+odd_numbers = list(range(1, 21, 2))
+for number in odd_numbers:
+	print(number)
