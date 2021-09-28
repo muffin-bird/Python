@@ -29,3 +29,7 @@ for number in range(1, 11):
 
 for number_2 in cubic_numbers:
 	print(number_2)
+
+# 演習問題 4-9
+cubic_numbers = [number ** 3 for number in range(1, 11)]
+print(cubic_numbers)
