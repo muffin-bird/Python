@@ -16,3 +16,8 @@ print(sum(numbers))
 odd_numbers = list(range(1, 21, 2))
 for number in odd_numbers:
 	print(number)
+
+# 演習問題 4-7
+three_numbers = list(range(3, 31, 3))
+for number in three_numbers:
+	print(number)
