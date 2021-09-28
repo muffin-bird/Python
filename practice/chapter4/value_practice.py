@@ -21,3 +21,11 @@ for number in odd_numbers:
 three_numbers = list(range(3, 31, 3))
 for number in three_numbers:
 	print(number)
+
+# 演習問題 4-8
+cubic_numbers = []
+for number in range(1, 11):
+	cubic_numbers.append(number ** 3)
+
+for number_2 in cubic_numbers:
+	print(number_2)
