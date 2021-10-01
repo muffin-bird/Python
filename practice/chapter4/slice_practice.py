@@ -26,3 +26,18 @@ for pizza in pizzas:
 print("\n友達が好きなpizza")
 for friend_pizza in friend_pizzas:
 	print(friend_pizza)
+
+# 演習問題 4-12
+my_foods = ["ピザ", "だんご", "ケーキ"]
+friend_foods = my_foods[:]
+
+my_foods.append("チョコレート")
+friend_foods.append("アイスクリーム")
+
+print("\n私の好きな食べ物リスト")
+for my_food in my_foods:
+	print(my_food)
+
+print("\n友達が好きな食べ物リスト")
+for friend_food in friend_foods:
+	print(friend_food)
