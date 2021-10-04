@@ -6,3 +6,10 @@ for car in cars:
 		print(car.upper())
 	else:
 		print(car.title())
+
+# True・False
+car = "bmw"
+print(car == "bmw")
+
+car = "audi"
+print(car == "bmw")
