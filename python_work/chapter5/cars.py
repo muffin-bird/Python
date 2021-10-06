@@ -13,3 +13,11 @@ print(car == "bmw")
 
 car = "audi"
 print(car == "bmw")
+
+# 大文字・小文字
+car = "Audi"
+print(car == "audi")
+
+car_name = "Audi"
+print(car_name.lower() == "audi")
+print(car_name)
