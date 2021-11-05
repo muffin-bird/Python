@@ -21,3 +21,21 @@ if "エクストラチーズ" in requested_toppings:
 	print("エクストラチーズを追加する。")
 
 print("\nピザができました!")
+
+#forループ
+requested_toppings = ["マッシュルーム", "ピーマン", "パイナップル"]
+
+for requested_topping in requested_toppings:
+	print(f"ピザに{requested_topping}を追加します。")
+
+print("\nピザができました!")
+
+requested_toppings = ["マッシュルーム", "ピーマン", "パイナップル"]
+
+for requested_topping in requested_toppings:
+	if requested_topping == "ピーマン":
+		print("ピーマンは品切れです。")
+	else:
+		print(f"ピザに{requested_topping}を追加します。")
+
+print("\nピザができました!")
