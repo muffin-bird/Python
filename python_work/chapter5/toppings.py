@@ -39,3 +39,13 @@ for requested_topping in requested_toppings:
 		print(f"ピザに{requested_topping}を追加します。")
 
 print("\nピザができました!")
+
+#リストが空でないことを確認する
+requested_toppings = []
+
+if requested_toppings:
+	for requested_topping in requested_toppings:
+		print(f"トッピングに{requested_topping}を追加します。")
+	print("\nピザができました!")
+else:
+	print("プレーンピザでよろしいでしょうか？")
