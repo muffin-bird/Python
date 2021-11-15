@@ -22,7 +22,7 @@ if "エクストラチーズ" in requested_toppings:
 
 print("\nピザができました!")
 
-#forループ
+# forループ
 requested_toppings = ["マッシュルーム", "ピーマン", "パイナップル"]
 
 for requested_topping in requested_toppings:
@@ -40,7 +40,7 @@ for requested_topping in requested_toppings:
 
 print("\nピザができました!")
 
-#リストが空でないことを確認する
+# リストが空でないことを確認する
 requested_toppings = []
 
 if requested_toppings:
@@ -49,3 +49,16 @@ if requested_toppings:
 	print("\nピザができました!")
 else:
 	print("プレーンピザでよろしいでしょうか？")
+
+# 複数のリストを使用する
+available_toppings = ["マッシュルーム", "オリーブ", "ピーマン","ペパロニ", "パイナップル", "エクストラチーズ"]
+
+requested_toppings = ["マッシュルーム", "エクストラチーズ", "フライドポテト"]
+
+for requested_topping in requested_toppings:
+	if requested_topping in available_toppings:
+		print(f"ピザに{requested_topping}を追加します。")
+	else:
+		print(f"申し訳ありません、{requested_topping}はありません。")
+
+print("\nピザができました!")
