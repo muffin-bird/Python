@@ -32,3 +32,16 @@ for new_user in new_users:
         print(f"{new_user}は利用できないため、別のユーザー名を入力してください！")
     else:
         print(f"{new_user}、ユーザー名は利用可能です！")
+
+# 演習問題 5-11
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3rd")
+    else:
+        print(f"{number}th")
