@@ -45,3 +45,21 @@ for number in numbers:
         print("3rd")
     else:
         print(f"{number}th")
+
+# 演習問題 5-12
+# 演習問題 5-6の修正
+ages = [1, 5, 10, 15, 20, 30]
+
+for age in ages:
+    if age < 2:
+        print("赤ちゃん")
+    elif age < 4:
+        print("幼児")
+    elif age < 13:
+        print("子供")
+    elif age < 20:
+        print("ティーンエイジャー")
+    elif age < 65:
+        print("大人")
+    else:
+        print("高齢者")
