@@ -53,3 +53,10 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 
 print(f"新しいX座標: {alien_0['x_position']}")
+
+# キーと値のペアを削除する
+alien_0 = {"color": "green", "points": 5}
+print(alien_0)
+
+del alien_0['points']
+print(alien_0)
