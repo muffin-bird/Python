@@ -34,3 +34,27 @@ print(f"islandの好きな数字は{number}です。")
 
 number= favorite_numbers['myman']
 print(f"mymanbの好きな数字は{number}です。")
+
+# 演習問題 6-3
+glossary = {
+    'string': '文字列',
+    'comment': 'コメントをする',
+    'list': '要素の集まり',
+    'variable': '値を入れる箱',
+    'print': "画面に出力する"
+}
+
+explannation = 'string'
+print(f"{explannation.title()}: {glossary[explannation]}")
+
+explannation = 'comment'
+print(f"\n{explannation.title()}: {glossary[explannation]}")
+
+explannation = 'list'
+print(f"\n{explannation.title()}: {glossary[explannation]}")
+
+explannation = 'variable'
+print(f"\n{explannation.title()}: {glossary[explannation]}")
+
+explannation = 'print'
+print(f"\n{explannation.title()}: {glossary[explannation]}")
